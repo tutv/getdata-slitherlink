@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Slither Link - online puzzle game</title>
+  <meta http-equiv="Content-Language" content="en-US" />
+  <meta name="description" content="Play online Slither Link the puzzle game also known as Loop The Loop or Fences" />
+  <meta name="keywords" content="slither link,puzzle,game,loop,loop the loop,fences" />
+  <META NAME="ROBOTS" CONTENT="NOINDEX,FOLLOW" />
+  <!-- Slither Link - online puzzle game -->
+
+  <script language="javascript" src="/js/js.js?v=1"></script>
+    <script language="javascript" src="/js/slitherlink.js?v=2"></script>
+  <link rel="stylesheet" href="/css/general.css" type="text/css" />
+  <link rel="stylesheet" href="/css/slitherlink.css" type="text/css" />
+</head>
+<body>
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-113709-3";
+</script>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td id="Side" valign="top">
+      	<a href="/"><h1>Slither Link</h1></a>
+	<div class="content" style="width:200px">
+		<p class="langBar">
+			<a href="http://bg.puzzle-loop.com" title="Slither Link - Български" class="sprite sprite-bg"></a><a href="http://de.puzzle-loop.com" title="Slither Link - Deutsch" class="sprite sprite-de"></a><a href="http://nl.puzzle-loop.com" title="Slither Link - Nederlands" class="sprite sprite-nl"></a><a href="http://no.puzzle-loop.com" title="Slither Link - Norwegian" class="sprite sprite-no"></a><a href="http://nn.puzzle-loop.com" title="Slither Link - Norsk (nynorsk)" class="sprite sprite-nn"></a><a href="http://th.puzzle-loop.com" title="Slither Link - ไทย" class="sprite sprite-th"></a><a href="http://it.puzzle-loop.com" title="Slither Link - Italiano" class="sprite sprite-it"></a><a href="http://pt.puzzle-loop.com" title="Slither Link - Português" class="sprite sprite-pt"></a><a href="http://tr.puzzle-loop.com" title="Slither Link - Turkish" class="sprite sprite-tr"></a><a href="http://ee.puzzle-loop.com" title="Slither Link - Estnisch" class="sprite sprite-ee"></a><a href="http://ru.puzzle-loop.com" title="Slither Link - Русский" class="sprite sprite-ru"></a><a href="http://dk.puzzle-loop.com" title="Slither Link - Danish" class="sprite sprite-dk"></a><a href="http://pl.puzzle-loop.com" title="Slither Link - Polski" class="sprite sprite-pl"></a><a href="http://cz.puzzle-loop.com" title="Slither Link - Česky" class="sprite sprite-cz"></a><a href="http://cn.puzzle-loop.com" title="Slither Link - Chinese (Simp.)" class="sprite sprite-cn"></a><a href="http://ko.puzzle-loop.com" title="Slither Link - Korean" class="sprite sprite-ko"></a><a href="http://sv.puzzle-loop.com" title="Slither Link - Svenska" class="sprite sprite-sv"></a><a href="http://hu.puzzle-loop.com" title="Slither Link - Magyar" class="sprite sprite-hu"></a><a href="http://fr.puzzle-loop.com" title="Slither Link - Français" class="sprite sprite-fr"></a><a href="http://si.puzzle-loop.com" title="Slither Link - Slovenski" class="sprite sprite-si"></a><a href="http://he.puzzle-loop.com" title="Slither Link - Hebrew" class="sprite sprite-he"></a><a href="http://br.puzzle-loop.com" title="Slither Link - " class="sprite sprite-br"></a>			<br clear="all" />
+			<a style="line-height:22px" href="translate.php">Translate this site.</a> <br />
+
+		</p>
+				 <div style="clear:both"></div>
+		<div id="rules" style="display:block">
+
+		<p><b>Slither Link</b> (also known as <b>Fences</b> and <b>Loop the Loop</b>) is a logic puzzle with simple rules and challenging solutions.</p>
+		<p>
+			<span class="red"><b>The rules</b></span> are simple.
+			You have to draw lines between the dots to form a single loop without crossings or branches.
+			The numbers indicate how many lines surround it.
+			<br />
+			Left click between the dots to connect them. Right click to mark with X.
+		</p>
+			<div style="float:right">
+				<a class="red" href="#" onclick="return switchRules(0)">Hide the rules</a>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+		<div id="norules" style="display:none">
+			<a class="red" href="#" onclick="return switchRules(1)">Show the rules</a>
+		</div>
+
+		<ul>
+		<li><a class="on" href="/?size=0">5x5 Loop Normal</a></li><li><a class="" href="/?size=4">5x5 Loop Hard</a></li><li><a class="" href="/?size=10">7x7 Loop Normal</a></li><li><a class="" href="/?size=11">7x7 Loop Hard</a></li><li><a class="" href="/?size=1">10x10 Loop Normal</a></li><li><a class="" href="/?size=5">10x10 Loop Hard</a></li><li><a class="" href="/?size=2">15x15 Loop Normal</a></li><li><a class="" href="/?size=6">15x15 Loop Hard</a></li><li><a class="" href="/?size=3">20x20 Loop Normal</a></li><li><a class="" href="/?size=7">20x20 Loop Hard</a></li><li><a class="" href="/?size=8">25x30 Loop Normal</a></li><li><a class="" href="/?size=9">25x30 Loop Hard</a></li><li><a class="" href="/?size=12">Special Weekly Loop</a></li><li><a href="/survey.php">Big Daily Puzzles</a> <sup class="red">survey</sup></li>		</ul>
+
+
+		<p align="center"><a href="feedback.php">Feedback</a> | <a href="specfic.php">Specific puzzle</a> | <a href="faq.php">FAQ</a></p>
+		<p align="center"><a href="print.php">Mass Print</a></p>
+		<p align="center"><a href="hall.php?hallsize=0">Hall of Fame</a> | <a target="_blank" href="https://www.facebook.com/pages/Best-Puzzles-on-the-net-or-your-phone/245769612265335">Join us at Facebook</a></p>
+		<p align="center">
+		  <a href="privacy-policy.php">Privacy Policy</a> |
+		  <a href="links.php">Links</a>
+		</p>
+				<br />
+            </td>
+    <td id="MainContainer" valign="top" align="center">
+      <div class="noprint" style="height:100px;">
+                          <iframe src="/banner_top.html" frameborder="0" width="744" scrolling="no" height="95"></iframe>
+                <br /><a href="javascript: Set_Cookie('hideAd1', 1, 1);alert('This advert will be disabled when you refresh the page.')">Disable Advert</a>
+                <br /><br />
+      </div>
+      <a href="/"><img src="/images/slitherlink-logo.gif" width="300" height="40" border="0" alt="Slither Link" /></a>
+      <div class="onlyprint"><p></p></div>
+            <div>
+                        <form method="post" action="/" name="answerForm">
+<div class="noprint">
+  <p>	<input type="hidden" name="jstimer" value="0" />
+	<input class="clock" readonly type="text" name="jstimerShow" value="" />
+	<input type="hidden" name="stopClock" value="0" />
+  </p></div>
+<table id="puzzleContainer" cellpadding="0" cellspacing="0" align="center"><tr><td class="brd">
+	<div id="rel">
+<table onContextMenu="return false" id="LoopTable" cellpadding="0" cellspacing="0" border="0"><tr><td><img src="d.gif" /></td><td><img class="l" name="h_0_0" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_0_1" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_0_2" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_0_3" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_0_4" src="nh.gif" /></td><td><img src="d.gif" /></td></tr><tr><td><img class="l" name="v_0_0" src="nv.gif" /></td><td align="center" ></td><td><img class="l" name="v_0_1" src="nv.gif" /></td><td align="center" >3</td><td><img class="l" name="v_0_2" src="nv.gif" /></td><td align="center" >3</td><td><img class="l" name="v_0_3" src="nv.gif" /></td><td align="center" ></td><td><img class="l" name="v_0_4" src="nv.gif" /></td><td align="center" ></td><td><img class="l" name="v_0_5" src="nv.gif" /></td></tr><tr><td><img src="d.gif" /></td><td><img class="l" name="h_1_0" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_1_1" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_1_2" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_1_3" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_1_4" src="nh.gif" /></td><td><img src="d.gif" /></td></tr><tr><td><img class="l" name="v_1_0" src="nv.gif" /></td><td align="center" >1</td><td><img class="l" name="v_1_1" src="nv.gif" /></td><td align="center" >2</td><td><img class="l" name="v_1_2" src="nv.gif" /></td><td align="center" >0</td><td><img class="l" name="v_1_3" src="nv.gif" /></td><td align="center" ></td><td><img class="l" name="v_1_4" src="nv.gif" /></td><td align="center" >2</td><td><img class="l" name="v_1_5" src="nv.gif" /></td></tr><tr><td><img src="d.gif" /></td><td><img class="l" name="h_2_0" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_2_1" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_2_2" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_2_3" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_2_4" src="nh.gif" /></td><td><img src="d.gif" /></td></tr><tr><td><img class="l" name="v_2_0" src="nv.gif" /></td><td align="center" >2</td><td><img class="l" name="v_2_1" src="nv.gif" /></td><td align="center" ></td><td><img class="l" name="v_2_2" src="nv.gif" /></td><td align="center" >2</td><td><img class="l" name="v_2_3" src="nv.gif" /></td><td align="center" ></td><td><img class="l" name="v_2_4" src="nv.gif" /></td><td align="center" ></td><td><img class="l" name="v_2_5" src="nv.gif" /></td></tr><tr><td><img src="d.gif" /></td><td><img class="l" name="h_3_0" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_3_1" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_3_2" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_3_3" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_3_4" src="nh.gif" /></td><td><img src="d.gif" /></td></tr><tr><td><img class="l" name="v_3_0" src="nv.gif" /></td><td align="center" >2</td><td><img class="l" name="v_3_1" src="nv.gif" /></td><td align="center" >2</td><td><img class="l" name="v_3_2" src="nv.gif" /></td><td align="center" >2</td><td><img class="l" name="v_3_3" src="nv.gif" /></td><td align="center" >1</td><td><img class="l" name="v_3_4" src="nv.gif" /></td><td align="center" >3</td><td><img class="l" name="v_3_5" src="nv.gif" /></td></tr><tr><td><img src="d.gif" /></td><td><img class="l" name="h_4_0" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_4_1" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_4_2" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_4_3" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_4_4" src="nh.gif" /></td><td><img src="d.gif" /></td></tr><tr><td><img class="l" name="v_4_0" src="nv.gif" /></td><td align="center" >3</td><td><img class="l" name="v_4_1" src="nv.gif" /></td><td align="center" >1</td><td><img class="l" name="v_4_2" src="nv.gif" /></td><td align="center" ></td><td><img class="l" name="v_4_3" src="nv.gif" /></td><td align="center" ></td><td><img class="l" name="v_4_4" src="nv.gif" /></td><td align="center" ></td><td><img class="l" name="v_4_5" src="nv.gif" /></td></tr><tr><td><img src="d.gif" /></td><td><img class="l" name="h_5_0" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_5_1" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_5_2" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_5_3" src="nh.gif" /></td><td><img src="d.gif" /></td><td><img class="l" name="h_5_4" src="nh.gif" /></td><td><img src="d.gif" /></td></tr></table>	</div>
+</td></tr></table>
+<div class="noprint">
+  </div>
+	    <p>5x5 Loop Normal Puzzle ID: 786,955</p>
+  <div class="noprint">
+	<input type="hidden" name="param" value="f}EjA!SV4nLMt:F:5M$kImbE:gF}S?gg|~Gh0*gO9t;!&gt;y^&amp;:1]j]USr2KQ&amp;nOW3I/S6L%mKK`TW&lt;LWDn;M.vf_c,?k&gt;tSXj%HnUEa OP.F4r&gt;06xOJH7=)N8_P}u?$XT5W6+r*&amp;7NO9^~bU~~$rx2}FR|z{[GJ~F0**zAkCwU9ijX]!e0ILEg(uJlZMWA%l,j{Tx:S2oz1^d (;.YF@JGurS|8PUl=;C7d=WXkH/d" />
+	<input type="hidden" name="w" value="5" />
+	<input type="hidden" name="h" value="5" />
+	<input type="hidden" name="ansH" value="nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn" />
+	<input type="hidden" name="ansV" value="nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn" />
+	<input class="button" type="submit" name="ready" id="btnReady" value="   Done   " />
+	<input class="button" type="submit" name="startover" value="   Start Over   " />
+	<input class="button" type="button" onclick="window.print()" value="   Print   " />
+		<input class="button" type="submit" name="new" value="   New Puzzle   " />
+	<p>
+  <a href="faq.php" class="red"><b>What am I supposed to do?</b></a>
+</p>
+<p>
+  <a title="Check out our facebook version!" href="http://apps.facebook.com/slitherlink/" target="_blank"><img src="/art/facebook/slitherlink.gif" width="126" height="30" /></a>
+</p>
+<br /><br />
+</div>
+</form>
+
+        <br clear="all" class="noprint" />
+
+        <div class="noprint">
+
+          <script type="text/javascript" src="/adsense-links.js"></script>
+        </div>
+
+        <br clear="all" />
+        <p class="noprint">
+          <b>More Logic Puzzles:</b><br /><br />
+          <a class="banner" href="http://www.puzzle-loop.com/" title="Slither Link (Loop the Loop / Fences)" ><img hspace="5" vspace="5" src="art/slither-link-150x150.gif" alt="Slither Link (Loop the Loop / Fences)" border="0" /></a> <a class="banner" href="http://www.puzzle-sudoku.com/" title="Sudoku" ><img hspace="5" vspace="5" src="art/sudoku-150x150.gif" alt="Sudoku" border="0" /></a> <a class="banner" href="http://www.puzzle-nonograms.com/" title="Nonograms"><img hspace="5" vspace="5" src="art/nonograms-150x150.gif" alt="Nonograms" border="0" /></a> <a class="banner" href="http://www.puzzle-light-up.com/" title="Light Up" ><img hspace="5" vspace="5" src="art/light-up-150x150.gif" alt="Light Up" border="0" /></a> <a class="banner" href="http://www.puzzle-bridges.com/" title="Bridges" ><img hspace="5" vspace="5" src="art/bridges-150x150.gif" alt="Bridges" border="0" /></a> <a class="banner" href="http://www.puzzle-shikaku.com/" title="Shikaku" ><img hspace="5" vspace="5" src="art/shikaku-150x150.gif" alt="Shikaku" border="0" /></a> <a class="banner" href="http://www.puzzle-nurikabe.com/" title="Nurikabe" ><img hspace="5" vspace="5" src="art/nurikabe-150x150.gif" alt="Nurikabe" border="0" /></a> <a class="banner" href="http://www.puzzle-dominosa.com/" title="Dominosa" ><img hspace="5" vspace="5" src="art/dominosa-150x150.gif" alt="Dominosa" border="0" /></a> <a class="banner" href="http://www.puzz-it.com/" title="Turn any image into a jigsaw puzzle" ><img hspace="5" vspace="5" src="art/puzzit-150x150.gif" alt="Turn any image into a jigsaw puzzle" border="0" /></a>         </p>
+
+
+      </div>
+      <div class="onlyprint sitehost">www.puzzle-loop.com</div>
+      <div class="noprint">
+        <noscript>
+          You need to have your javascript switched on in order to play the game online. You can print a copy however.        </noscript>
+      </div>
+    </td>
+    <td valign="top" align="right" class="noprint">
+              <iframe src="/banner_side.html" scrolling="no" frameborder="0" width="160" height="605"></iframe>
+        <br clear="all" />
+    <a href="javascript: Set_Cookie('hideAd1', 1, 1);alert('The advert will be disabled when you refresh the page.')">Disable Advert</a>
+        </td>
+  </tr>
+</table>
+<script type="text/javascript">
+init();</script>
+<div class="noprint">
+<!-- CQ Counter code start -->
+<script type="text/javascript" language="javascript"><!--
+_d=document; _n=navigator; _t=new Date(); function t() { _d.write(
+"<img src=\"http://us.2.cqcounter.com/cgi-bin/c?_id=puzzloop&_z=0&_r="+
+_r+"&_c="+_c+"&_j="+_j+"&_t="+(_t.getTimezoneOffset())+"&_k="+_k+
+"&_l="+escape(_d.referrer)+"\" width=1 height=1 "+
+"border=0>");} _c="0"; _r="0"; _j="U"; _k="U"; _d.cookie="_c=y";
+_d.cookie.length>0?_k="Y":_k="N";//--></script>
+<script type="text/javascript" language="javascript1.2"><!--
+_n.javaEnabled()?_j="Y":_j="N";_b=screen; _r=_b.width;
+_n.appName!="Netscape"?_c=_b.colorDepth : _c=_b.pixelDepth;//--></script>
+<a title="Free Counter" href="http://cqcounter.com/?_id=puzzloop&_lo=us2"
+target="_top"><script type="text/javascript" language="javascript"><!--
+t(); //--></script></a><noscript><img width="1" height="1" border="0"
+alt="Counter" src="http://us.2.cqcounter.com/cgi-bin/c?_id=puzzloop&_z=0"><br>
+<a title="Web Counter" href="http://cqcounter.com/">Hit Counter</a></noscript>
+<!-- CQ Counter code end -->
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-113709-3");
+pageTracker._setDomainName("puzzle-loop.com");
+pageTracker._trackPageview();
+var globalTracker = _gat._getTracker("UA-113709-12");
+globalTracker._trackPageview();
+</script>
+
+</body>
+</html>
