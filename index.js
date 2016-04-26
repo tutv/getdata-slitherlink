@@ -38,7 +38,7 @@ app.get('/:code', function (req, res) {
                 for (var j = 0; j < tds.length; j++) {
                     if (j % 2 != 0) {
                         var td = tds.eq(j);
-                        var value = 0;
+                        var value = -1;
                         if (td.html() != '') {
                             value = parseInt(td.html());
                         }
