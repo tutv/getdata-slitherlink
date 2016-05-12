@@ -20,4 +20,6 @@ Vào link: http://localhost:2389/{a}{b}{x}
 
 Trong đó a, b là kích thước tương ứng với chiều ngang và chiều dọc của đề bài. x là mức độ bình thường hoặc khó tương tứng với 1 và 2.
 
+Ví dụ 1 link hợp lệ: http://localhost:2389/772
+
 Dữ liệu trả ra là dạng json.
