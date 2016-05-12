@@ -16,8 +16,8 @@ Tải về tại https://nodejs.org và chọn phiên bản phù hợp với h�
 
 # Cách sử dụng:
 
-Vào link: http://localhost:2389/{a}{b}1
+Vào link: http://localhost:2389/{a}{b}{x}
 
-Trong đó a, b là kích thước tương ứng với chiều ngang và chiều dọc của đề bài.
+Trong đó a, b là kích thước tương ứng với chiều ngang và chiều dọc của đề bài. x là mức độ bình thường hoặc khó tương tứng với 1 và 2.
 
 Dữ liệu trả ra là dạng json.
