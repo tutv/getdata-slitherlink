@@ -21,3 +21,5 @@ db.data = new Datastore({filename: 'databases/data.db', autoload: true});
 db.types = types;
 
 module.exports = db;
+
+
